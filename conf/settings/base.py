@@ -39,6 +39,7 @@ PREREQ_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
+    'django_filters',
     'rest_framework',
 ]
 
@@ -112,7 +113,7 @@ REST_FRAMEWORK = {
     ),
     'EXCEPTION_HANDLER': 'conf.rest_config.exception_handler.handler.custom_exception_handler',
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 25,
+    'PAGE_SIZE': 5,
     'DEFAULT_FILTER_BACKENDS': (
         'django_filters.rest_framework.DjangoFilterBackend',
     ),

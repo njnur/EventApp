@@ -21,6 +21,7 @@ from conf import settings
 
 urlpatterns = [
     path('dj-admin/', admin.site.urls),
+    path('api/', include('apps.event.urls')),
     path('', include('core.urls')),
 ]
 
