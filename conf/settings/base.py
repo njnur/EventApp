@@ -41,6 +41,7 @@ PREREQ_APPS = [
     'corsheaders',
     'django_filters',
     'rest_framework',
+    'drf_yasg',
 ]
 
 INSTALLED_APPS = PREREQ_APPS + PROJECT_APPS
