@@ -150,3 +150,7 @@ EventApp/               # Root Folder
 |- pyproject.toml       # Project description file
 |- README.md
 ```
+
+## Design Wiki
+
+[System Design](https://github.com/njnur/EventApp/wiki/System-Design) - Project System Design Wiki Page
