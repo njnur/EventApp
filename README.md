@@ -66,6 +66,14 @@ docker-compose -f docker-compose.yml.dev build
 docker-compose -f docker-compose.yml.dev up -d
 ```
 
+## E2E Testing
+
+To run end-to-end test simply run the command below. This will generate code coverage report.
+
+```
+pytest --cov=EventApp
+```
+
 ## API Documentation
 
 Check the APIs in Swagger and Redoc (Only in Dev and Stage environment)
